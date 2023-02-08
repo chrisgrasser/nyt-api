@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYT API</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/nyt.css">
+    <script defer src="js/nyt.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            New York Times API
+        </h1>
+        <h3>
+            By Chris Grasser
+        </h3>
+    </header>
+    <div class="container">
+        <div class="row" id="dropdown-box">
+            <div class="col-lg-11 col-md-9 col-sm-10" id="dropdown"><select class="form-select capitalize ms-3" id="subject"></select></div>
+            <div class="col-lg-1 col-md-3 col-sm-2" id="button-box"><button class="btn-primary" id="refresh">Refresh</button></div>
+        </div>
+        <div class="row flex-row flex-wrap justify-content-between" id="content"></div>
+    </div>
+
+    <footer>
+        Copyright &copy; 2021 Chris Grasser
+    </footer>
+</body>
+
+</html>
